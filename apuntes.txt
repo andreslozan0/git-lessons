@@ -110,3 +110,7 @@ git branch -l: Ver la lista de ramas del proyecto e indica la rama actual.
 git checkout -b: Crear una rama nueva y saltar a ella en un solo paso.
 git commit -am "mensaje": Este comando simplifica git add y git commit en un solo paso
 git merge -d "nombre de rama": Permite eliminar una rama cuando ya no se va a utilizar y estamos seguros que el merge fue exitoso y no tiene trabajos sin fusionar.
+
+git push origin main 
+git pull origin main   
+git pull origin main --allow-unrelated-histories   
