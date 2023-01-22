@@ -87,7 +87,7 @@ Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
 git log --stat - Explica el número de líneas que se cambiaron brevemente.
-git log -p- Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
+git log -p - Explica el número de líneas que se cambiaron y te muestra que se cambió en el contenido.
 git shortlog - Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
 git log --graph --oneline --decorate y
 git log --pretty=format:"%cn hizo un commit %h el dia %cd" - Muestra mensajes personalizados de los commits.
@@ -101,3 +101,12 @@ git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar may�
 git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar los logs en un archivo txt
+
+git branch -v: Para ver la ultima confirmacion de cambios en cada rama
+git branch --merged: ver las ramas que han sido fusionadas con la rama activa
+git branch --no-merged: ver las ramas que contienen trabajos sin fusionar
+git branch -D: Permite borrar la rama, forzando el borrado incluso si se tienen trabajos sin fusionar. Se pierde el trabajo contenido en ella.
+git branch -l: Ver la lista de ramas del proyecto e indica la rama actual.
+git checkout -b: Crear una rama nueva y saltar a ella en un solo paso.
+git commit -am "mensaje": Este comando simplifica git add y git commit en un solo paso
+git merge -d "nombre de rama": Permite eliminar una rama cuando ya no se va a utilizar y estamos seguros que el merge fue exitoso y no tiene trabajos sin fusionar.
