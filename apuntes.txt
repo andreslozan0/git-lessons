@@ -1,4 +1,6 @@
 
+bienvenidos a mis apuntes de git y github
+
 git init 
 git add
 git status
@@ -118,6 +120,3 @@ git remote add origin
 git remote -v
 git remote set-url 
 
-
-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
-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
