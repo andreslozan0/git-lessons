@@ -1,5 +1,7 @@
 
-bienvenidos a mis apuntes de git y github
+Bienvenidos a mis apuntes de git y github
+
+Esta actualizacion es la prueba de que esta funcionando la llave SSH. Entre el tutorial de Platzi y la nueva documentacion de Github, el proceso para mac cambio.
 
 git init 
 git add
